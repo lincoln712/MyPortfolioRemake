@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Nanum+Gothic&family=Roboto&family=Stylish&display=swap');/*projects section*/
+
+/*body{
+  font-family: 'Cute Font', cursive;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Stylish', sans-serif;
+}*/
+
+.projects-section{
+  text-align: center;
+}
+
+img{
+  height: 50vh;
+}
+
+a{
+  margin-right:4px;
+}
+.about p{
+  font-size: 18px;
+}
+
+.footer{
+  background-color: #000;
+  color:aliceblue;
+}
+
+.footer h3{
+  text-transform: capitalize;
+}
+.footer p{
+  font-size: 18px;
+}
+
+.footer .fa-github{
+  font-size: 35px;
+  color:#fff;
+}
+.footer .socket{
+  background-color:#fff;
+}
+
+@media(max-width: 400px){
+    /*projects*/
+    img{
+      width:100%;
+    }
+    a{
+      margin-bottom:4px;
+    }
+}
